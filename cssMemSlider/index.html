@@ -6,38 +6,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cssMemSlider</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="wrapper">
     <div class="slider">
+
+      <input type="radio" name="radio-button" id="radio-button-1" checked>
+      <input type="radio" name="radio-button" id="radio-button-2">
+      <input type="radio" name="radio-button" id="radio-button-3">
+      <input type="radio" name="radio-button" id="radio-button-4">
+
       <div class="slides">
-
-        <input type="radio" name="radio-button" id="radio-button-1">
-        <input type="radio" name="radio-button" id="radio-button-2">
-        <input type="radio" name="radio-button" id="radio-button-3">
-        <input type="radio" name="radio-button" id="radio-button-4">
-
-        <div class="slide"></div>
-        <div class="slide"></div>
-        <div class="slide"></div>
-        <div class="slide"></div>
-
+        <div class="slide slide_1"></div>
+        <div class="slide slide_2"></div>
+        <div class="slide slide_3"></div>
+        <div class="slide slide_4"></div>
       </div>
-    </div>
-    <div class="slider_description">
-      <div class="decription">
-        <div class="titles">
-          <h2 class="title"></h2>
-          <h2 class="title"></h2>
-          <h2 class="title"></h2>
-          <h2 class="title"></h2>
+
+      <div class="slider_footer">
+
+        <div class="decription">
+          <div class="titles">
+            <h2 class="title title_1">Пиздэс братан такое даже подорожник не вылечет</h2>
+            <h2 class="title">Я сегодня домой трезвый приду</h2>
+            <h2 class="title">Иномарки покупают те, у кого не хватает денег содержать ВАЗ. <br/>© Джейсон Стэтхэм</h2>
+            <h2 class="title">Я уже никому не верю и ничего не жду</h2>
+          </div>
         </div>
-      </div>
-      <div class="navigation">
-        <label for="radio-button-1" class="bar"></label>
-        <label for="radio-button-2" class="bar"></label>
-        <label for="radio-button-3" class="bar"></label>
-        <label for="radio-button-4" class="bar"></label>
+
+        <div class="navigation">
+          <label for="radio-button-1" class="bar bar_1"><div class="control control_1"></div></label>
+          <label for="radio-button-2" class="bar bar_2"><div class="control control_2"></div></label>
+          <label for="radio-button-3" class="bar bar_3"><div class="control control_3"></div></label>
+          <label for="radio-button-4" class="bar bar_4"><div class="control control_4"></div></label>
+        </div>
+        
       </div>
     </div>
   </div>
